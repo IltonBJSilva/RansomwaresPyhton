@@ -2,4 +2,4 @@
 
 import os
 
-
+def discovery(initial_path):
