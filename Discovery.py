@@ -1,3 +1,10 @@
+'''
+Nome do autor: Ilton Batista da Silva Júnior
+Data de criação do arquivo: 19/05/2019
+Objetivo sucinto do programa: Introdução a criação de Ransomwares em Python
+Referência ao enunciado/origem do exercício: https://www.udemy.com/criando-ransomwares-com-python/learn/lecture/14122005#overview
+'''
+
 #!/usr/bin/python3.6
 
 import os
